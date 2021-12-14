@@ -1,10 +1,10 @@
-## agro_insights
+# agro_insights
 
-# CAIT CO2e Emissions
+## CAIT CO2e Emissions
 
-# Global Carbon Project CO2 Emissions
+## Global Carbon Project CO2 Emissions
 
-# MI Social Bolsa Familia Programm (BFP) Cash Transfers 
+## MI Social Bolsa Familia Programm (BFP) Cash Transfers 
 	dt_bfp1: BFP monthly cash tranfers, per munnicipality in BRL. (Jan/2004 - Dec/2020)
 		date = yyyy-mm-dd
 		mun_ibge7 = IBGE's state 7-number code, for every 5570 Brazilian cities.  
@@ -26,7 +26,7 @@
 		Original Data available in: https://dados.gov.br/dataset/bolsa-familia-misocial#
 		IPCA data available in: http://www.ipeadata.gov.br/Default.aspx (search for "IPCA" and select "Índice nacional de preços ao consumidor amplo (IPCA) geral: índice (dez. 1993 = 100)")
 
-# Cattle Effective (1974 - 2020)
+## Cattle Effective (1974 - 2020)
 	dt_cattle1: Bonive cattle herd effective size at city level.
 		year = years between 1974 and 2020
 		mun_ibge7 = IBGE's state 7-number code, for every 5570 Brazilian cities.  
