@@ -23,8 +23,8 @@
 		transf = cash tranfers for each city, in each month, in nominal BRL.
 		trasf_ipca = cash tranfers for each city, in dec/2020 BRL inflation-adjusted, by IPCA (Brazilian CPI).
 
-		Original Data available in: https://dados.gov.br/dataset/bolsa-familia-misocial#
-		IPCA data available in: http://www.ipeadata.gov.br/Default.aspx (search for "IPCA" and select "Índice nacional de preços ao consumidor amplo (IPCA) geral: índice (dez. 1993 = 100)")
+Original Data available in: https://dados.gov.br/dataset/bolsa-familia-misocial#
+IPCA data available in: http://www.ipeadata.gov.br/Default.aspx (search for "IPCA" and select "Índice nacional de preços ao consumidor amplo (IPCA) geral: índice (dez. 1993 = 100)")
 
 ## Cattle Effective (1974 - 2020)
 	dt_cattle1: Bonive cattle herd effective size at city level.
@@ -39,5 +39,5 @@
 		uf_ibge2 = IBGE's state 2-number code, for every 27 Brazilian states.
 		cattle_size = heads of bovine cattle by dec 31
      
-		Original data available in: https://sidra.ibge.gov.br/tabela/3939
+Original data available in: https://sidra.ibge.gov.br/tabela/3939
  
