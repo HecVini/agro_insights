@@ -27,14 +27,14 @@
 	IPCA data available in: http://www.ipeadata.gov.br/Default.aspx (search for "IPCA" and select "Índice nacional de preços ao consumidor amplo (IPCA) geral: índice (dez. 1993 = 100)")
 
 ## Cattle Effective (1974 - 2020)
-	### dt_cattle1: Bonive cattle herd effective size at city level.
+	dt_cattle1: Bonive cattle herd effective size at city level.
 		year = years between 1974 and 2020
 		mun_ibge7 = IBGE's state 7-number code, for every 5570 Brazilian cities.  
 		mun_name = munnicipality name
 		uf_ibge2 = IBGE's state 2-number code, for every 27 Brazilian states.
 		cattle_size = heads of bovine cattle by dec 31
       
-	#### dt_cattle2: Bonive cattle herd effective size at state level.
+	dt_cattle2: Bonive cattle herd effective size at state level.
 		year = years between 1974 and 2020
 		uf_ibge2 = IBGE's state 2-number code, for every 27 Brazilian states.
 		cattle_size = heads of bovine cattle by dec 31
