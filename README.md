@@ -102,6 +102,7 @@
 		uf_ibge2 = IBGE's state 2-number code, for every 27 Brazilian states.
 		sqkm = increase in deforestation area, in sqkm.
 		
+		
 	dt_mapabiomas: city-level land cover data
 		
 	PRODES original data available in: http://terrabrasilis.dpi.inpe.br/app/dashboard/deforestation/biomes/amazon/increments
