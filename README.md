@@ -1,10 +1,37 @@
 # agro_insights
 
 ## CAIT CO2e Emissions
-
+	dt_cait1: CAIT CO2e emissions database
+		year = years beatween 1990 and 2018
+		iso = countries  ISO-3 standart code. Available for 193 UN recognized countries.
+		sector = Agriculture, Energy, Industrial Processes, LUCF, Waste
+		emiss = MtCO2e emissions, according to SAR GWP
+		
+	dt_cait2: CAIT CO2e emissions database
+		year = years beatween 1990 and 2018
+		iso = countries  ISO-3 standart code. Available for 166 UN recognized countries + UE27.
+		sector = Agriculture, Energy, Industrial Processes, LUCF, Waste
+		emiss = MtCO2e emissions, according to SAR GWP
+		
+	dt_cait3: CAIT CO2e emissions database
+		year = years beatween 1990 and 2018
+		iso = countries  ISO-3 standart code. Available for 193 UN recognized countries.
+		sector = Agriculture, Energy, Industrial Processes, LUCF, Waste + Energy subsectors (see methodology)
+		emiss = MtCO2e emissions, according to SAR GWP
+		
+	CAIT methodology available in: http://cait2.wri.org/docs/CAIT2.0_CountryGHG_Methods.pdf
+	Original data available in: https://www.climatewatchdata.org/data-explorer/historical-emissions?historical-emissions-data-sources=cait&historical-emissions-gases=all-ghg&historical-emissions-regions=All%20Selected&historical-emissions-sectors=total-including-lucf&page=1
+	
 ## Global Carbon Project CO2 Emissions
+	dt_cait1: CAIT CO2e emissions database
+		year = years beatween 1990 and 2018
+		iso = countries  ISO-3 standart code. Available for 193 UN recognized countries.
+		sector = Agriculture, Energy, Industrial Processes, LUCF, Waste
+		emiss = MtCO2e emissions, according to , in
+		
+	CAIT
 
-## MI Social Bolsa Familia Programm (BFP) Cash Transfers 
+## Bolsa Familia Program (BFP) Cash Transfers 
 	dt_bfp1: BFP monthly cash tranfers, per munnicipality in BRL. (Jan/2004 - Dec/2020)
 		date = yyyy-mm-dd
 		mun_ibge7 = IBGE's state 7-number code, for every 5570 Brazilian cities.  
