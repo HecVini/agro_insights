@@ -26,6 +26,26 @@
 	Original Data available in: https://dados.gov.br/dataset/bolsa-familia-misocial
 	IPCA data available in: http://www.ipeadata.gov.br/Default.aspx (search for "IPCA" and select "Índice nacional de preços ao consumidor amplo (IPCA) geral: índice (dez. 1993 = 100)")
 
+## GDP and Population
+	dt_pop: Brazian cities annual population
+		year = years between 2001 and 2021
+		mun_ibge7 = IBGE's state 7-number code, for every 5570 Brazilian cities.  
+		mun_name = munnicipality name
+		uf_ibge2 = IBGE's state 2-number code, for every 27 Brazilian states.
+		pop = estimated population at jul 31. Population in 2007 from the demographic count and 2010 from the census.
+		
+	dt_gdp: Brazilian cities gross domestic product
+		year = years between 2001 and 2021
+		mun_ibge7 = IBGE's state 7-number code, for every 5570 Brazilian cities.  
+		mun_name = munnicipality name
+		uf_ibge2 = IBGE's state 2-number code, for every 27 Brazilian states.
+		gdp = nominal GDP in thousand BRL
+		gdp_defimp = real GDP in thousand BRL, inflation-adjusted by IPCA
+		gdp_pc = nominal GDP divided by population, in BRL
+		gdp_defimp_pc = real GDP divided by population, in BRL
+		
+	Original Data available in: https://sidra.ibge.gov.br/tabela/5938, https://sidra.ibge.gov.br/tabela/6579, https://sidra.ibge.gov.br/tabela/793, https://sidra.ibge.gov.br/tabela/200
+
 ## Cattle Effective
 	dt_cattle1: Bovine cattle herd effective size at city level.
 		year = years between 1974 and 2020
@@ -55,5 +75,10 @@
 		mun_name = munnicipality name
 		uf_ibge2 = IBGE's state 2-number code, for every 27 Brazilian states.
 		sqkm = increase in deforestation area, in sqkm.
+		
+	dt_mapabiomas: city-level land cover data
+		
+	PRODES original data available in: http://terrabrasilis.dpi.inpe.br/app/dashboard/deforestation/biomes/amazon/increments
+	MapaBiomas original data available in: https://mapbiomas.org/estatisticas
 
 Original data availabe in: http://terrabrasilis.dpi.inpe.br/app/dashboard/deforestation/biomes/legal_amazon/rates
