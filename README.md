@@ -26,8 +26,8 @@
 	Original Data available in: https://dados.gov.br/dataset/bolsa-familia-misocial
 	IPCA data available in: http://www.ipeadata.gov.br/Default.aspx (search for "IPCA" and select "Índice nacional de preços ao consumidor amplo (IPCA) geral: índice (dez. 1993 = 100)")
 
-## Cattle Effective (1974 - 2020)
-	dt_cattle1: Bonive cattle herd effective size at city level.
+## Cattle Effective
+	dt_cattle1: Bovine cattle herd effective size at city level.
 		year = years between 1974 and 2020
 		mun_ibge7 = IBGE's state 7-number code, for every 5570 Brazilian cities.  
 		mun_name = munnicipality name
@@ -40,4 +40,20 @@
 		cattle_size = heads of bovine cattle by dec 31
      
 	Original data available in: https://sidra.ibge.gov.br/tabela/3939
- 
+
+## GDP, Population and GDP per Capita
+
+## Deforestation
+	dt_prodes1: state-level deforestation increment.
+		year = years between 1988 and 2021.
+		uf_ibge2 = IBGE's state 2-number code, for every 27 Brazilian states.
+		sqkm = increase in deforestation area, in sqkm.
+		
+	dt_prodes2: city-level deforestation increment.
+		year = years between 2008 and 2021.
+		mun_ibge7 = IBGE's state 7-number code, for every 5570 Brazilian cities.  
+		mun_name = munnicipality name
+		uf_ibge2 = IBGE's state 2-number code, for every 27 Brazilian states.
+		sqkm = increase in deforestation area, in sqkm.
+
+Original data availabe in: http://terrabrasilis.dpi.inpe.br/app/dashboard/deforestation/biomes/legal_amazon/rates
