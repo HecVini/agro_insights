@@ -40,11 +40,12 @@
 		mun_name = munnicipality name
 		uf_ibge2 = IBGE's state 2-number code, for every 27 Brazilian states.
 		gdp = nominal GDP in thousand BRL
-		gdp_defimp = real GDP in thousand BRL, inflation-adjusted by IPCA
+		gdp_defimp = real GDP in thousand BRL, inflation-adjusted by GDP implicit deflator
 		gdp_pc = nominal GDP divided by population, in BRL
 		gdp_defimp_pc = real GDP divided by population, in BRL
 		
 	Original Data available in: https://sidra.ibge.gov.br/tabela/5938, https://sidra.ibge.gov.br/tabela/6579, https://sidra.ibge.gov.br/tabela/793, https://sidra.ibge.gov.br/tabela/200
+	Implicit deflator available in: 
 
 ## Cattle Effective
 	dt_cattle1: Bovine cattle herd effective size at city level.
@@ -60,8 +61,6 @@
 		cattle_size = heads of bovine cattle by dec 31
      
 	Original data available in: https://sidra.ibge.gov.br/tabela/3939
-
-## GDP, Population and GDP per Capita
 
 ## Deforestation
 	dt_prodes1: state-level deforestation increment.
@@ -81,4 +80,4 @@
 	PRODES original data available in: http://terrabrasilis.dpi.inpe.br/app/dashboard/deforestation/biomes/amazon/increments
 	MapaBiomas original data available in: https://mapbiomas.org/estatisticas
 
-Original data availabe in: http://terrabrasilis.dpi.inpe.br/app/dashboard/deforestation/biomes/legal_amazon/rates
+	Original data availabe in: http://terrabrasilis.dpi.inpe.br/app/dashboard/deforestation/biomes/legal_amazon/rates
