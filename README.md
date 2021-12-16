@@ -9,7 +9,7 @@
 		
 	dt_cait2: CAIT CO2e emissions database
 		year = years beatween 1990 and 2018
-		iso = countries  ISO-3 standart code. Available for 166 UN recognized countries + UE27.
+		iso = countries ISO-3 standart code. Available for 166 UN recognized countries + UE27.
 		sector = Agriculture, Energy, Industrial Processes, LUCF, Waste
 		emiss = MtCO2e emissions, according to SAR GWP
 		
@@ -23,14 +23,27 @@
 	Original data available in: https://www.climatewatchdata.org/data-explorer/historical-emissions?historical-emissions-data-sources=cait&historical-emissions-gases=all-ghg&historical-emissions-regions=All%20Selected&historical-emissions-sectors=total-including-lucf&page=1
 	
 ## Global Carbon Project CO2 Emissions
-	dt_cait1: CAIT CO2e emissions database
-		year = years beatween 1990 and 2018
-		iso = countries  ISO-3 standart code. Available for 193 UN recognized countries.
-		sector = Agriculture, Energy, Industrial Processes, LUCF, Waste
-		emiss = MtCO2e emissions, according to , in
+	dt_gcp1: CO2 emissions database
+		year = years between 1750 and 2020
+		iso = countries ISO-3 standart code. Available for 193 UN recognized countries.
+		co2 = CO2 emissions
+		cumulative_co2 = CO2 emissions since the country fisrt year report
 		
-	CAIT
-
+	dt_gcp2: CO2 emissions database
+		year = years between 1750 and 2020
+		iso = countries ISO-3 standart code. Available for 166 UN recognized countries + UE27.
+		co2 = CO2 emissions
+		cumulative_co2 = CO2 emissions since the country fisrt year report
+		
+	dt_gcp_wld: World CO2 emissions
+		year = years between 1750 and 2020
+		iso = 'WLD'
+		co2 = CO2 emissions. Includes net emissions from LUCF and International Bunkers.
+		cumulative_co2 = CO2 emissions since the country fisrt year report
+	
+	Orginal data available in: https://github.com/owid/co2-data
+	Carbon Atlas Methodology available in: http://www.globalcarbonatlas.org/en/CO2-emissions
+		
 ## Bolsa Familia Program (BFP) Cash Transfers 
 	dt_bfp1: BFP monthly cash tranfers, per munnicipality in BRL. (Jan/2004 - Dec/2020)
 		date = yyyy-mm-dd
